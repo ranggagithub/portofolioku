@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio Rangga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Hallo
+            </div>
+
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#skill">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Artikel 1 -->
+        <article id="about">
+            <div class="image">
+                <img src="gw.jpg" alt="gambar coding">
+            </div>
+
+            <div class="content1">
+                <h3>Hi, I'm  </h3>
+                <h2>Rangga Yudha Anugrah Pradana </h2>
+                <p>Hai Perkenalkan nama saya Rangga Yudha A.P , Saya adalah siswa SMK Krian 1 
+                </p>
+                <button id="downloadButton">
+                    <a href="SURAT_JADWAL_PENERIMAAN_CALON_ANGGOTA_POLRI_T.A._2023.pdf">Download CV</a>
+                </button>
+            </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article id="skill">
+            <h2>Skills</h2>
+            <!-- Skill 1 -->
+            <div class="content2">
+            <section class="card">
+                <img src="kurumi.jpg" alt="gambar coding" width="20%">
+
+                <h3>kurumi</h3>
+            </section>
+
+            <!-- Skill 2 -->
+            <section class="card">
+                <img src="gojo.jpg" alt="gambar coding" width="20%">
+
+                <h3>Gojo</h3>
+            </section>
+
+            <!-- Skill 3 -->
+            <section class="card">
+                <img src="shinobu.jpg" alt="gambar coding" width="20%">
+
+                <h3>shinobu</h3>
+            </section>
+            </div>
+        </article>
+
+        <form id="contact">
+            <fieldset class="video-background">
+                <video autoplay loop muted>
+                    <source src="animelive.mp4" type="video/mp4">
+                </video>
+                <h2>Kontak Saya</h2>
+                <p>silahkan kirim pesan di bawah ini
+                </p>
+
+                <label for="nama">Nama :</label><br>
+                <input type="text" id="nama"><br>
+                
+                <label for="email">email :</label><br>
+                <input type="email" id="email"><br>
+
+                <label for="pesan">pesan :</label><br>
+                <textarea id="pesan" cols="30" rows="10"></textarea> 
+                <br>
+
+                <button>Kirim</button>
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        <p>Web &copy; Rangga yap</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
